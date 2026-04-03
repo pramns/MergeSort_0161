@@ -6,14 +6,19 @@ int arr[20], B[20];
 int n;
 
 void input(){
+  while (true){
   cout << "Masukan Panjang element array : ";
   cin >> n;
 
-  if (n <= 20)
-  {
+  if (n <= 20){
       break;
   }
   else{
     cout << "\nMaksimal Panjang array adalah 20";
   }
-}
+ }
+cout << "\n------------------------------" << endl;
+cout << "\nInputkan Isi element array" << endl;
+cout << "\n------------------------------" << endl;
+
+
